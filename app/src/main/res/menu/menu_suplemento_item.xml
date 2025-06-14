@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_tomado"
+        android:title="Marcar como tomado"
+        android:icon="@drawable/checkbox_24" />
+    <item
+        android:id="@+id/action_excluir_alarme"
+        android:title="Excluir"
+        android:icon="@drawable/trash_24"/>
+</menu>

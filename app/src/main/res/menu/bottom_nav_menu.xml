@@ -5,7 +5,7 @@
         android:icon="@drawable/alarme_icon_24dp"
         android:title="Alarme" />
     <item
-        android:id="@+id/nav_suplemento"
+        android:id="@+id/nav_menu_dois"
         android:icon="@drawable/suplemento_icon"
         android:title="Novo" />
 </menu>

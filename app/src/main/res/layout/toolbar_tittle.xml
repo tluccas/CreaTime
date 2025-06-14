@@ -3,7 +3,7 @@
     android:id="@+id/toolbar_tittle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="Meu App"
+    android:text="CreaTime"
     android:textColor="@android:color/white"
     android:textSize="20sp"
     android:textStyle="bold"
