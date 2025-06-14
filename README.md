@@ -1,4 +1,4 @@
-# 💊 Suplemento Alarme App
+# 💊 CreaTime
 
 Um aplicativo Android sendo desenvolvido em **Java** que lembra o usuário de tomar suplementos nos horários corretos. Através de alarmes personalizados e gerenciamento de histórico, o app vai oferecer uma maneira simples e eficaz de manter a rotina de suplementação em dia.
 
