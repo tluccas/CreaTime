@@ -1,0 +1,64 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- icone tipo -->
+        <ImageView
+            android:id="@+id/icone"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/suplemento_icon"
+            app:tint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <!-- Nome do Suplemento -->
+        <TextView
+            android:id="@+id/tvNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creatina"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"/>
+
+        <!-- Dosagem -->
+        <TextView
+            android:id="@+id/tvDosagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5g"
+            android:textSize="14sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"/>
+
+        <!-- Horário -->
+        <TextView
+            android:id="@+id/tvHorario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvNome"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
